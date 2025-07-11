@@ -1,0 +1,33 @@
+.div1 {
+    border: 5px outset palevioletred;
+    text-align: center;
+    background-color: aquamarine;
+    height: 5%;
+    width: 100%;
+    color: rgb(101, 58, 72);
+}
+.div1 h1 {
+    font-size: 46px;
+}
+.div2 {
+    margin: 30px;
+}
+.kp {
+    margin: 30px;
+}
+.arrow {
+    list-style: none;
+}
+.arrow li::before {
+    content: "➤ ";
+    color: black;
+    margin-right: 3px;
+    padding-left: 0;
+}
+.a {
+    text-align: center;
+    border: 5px outset palevioletred;
+}
+.img {
+    margin-left: 100px;
+}
